@@ -1,0 +1,3 @@
+#!/bin/sh
+# for netcdf-c-4.3.1.1
+./configure --prefix=/home/ming/collaboration_Ming_Gong/codes/trilinos/trilinos-TPLs/install3 CC=mpicc FC=mpif90 CXX=mpicxx CFLAGS="-I/home/ming/collaboration_Ming_Gong/codes/trilinos/trilinos-TPLs/install3/include -O3" LDFLAGS="-L/home/ming/collaboration_Ming_Gong/codes/trilinos/trilinos-TPLs/install3/lib" --disable-fsync --disable-cdmremote --disable-dap --enable-shared

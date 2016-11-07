@@ -1,0 +1,4 @@
+#!/bin/sh
+#for hdf5-1.8.12 
+
+./configure CC=mpicc FC=mpif90 CXX=mpicxx CXXFLAGS="-fPIC -O3" CFLAGS="-fPIC -O3" FCFLAGS="-fPIC -O3" --enable-parallel --enable-shared --with-zlib=/home/ming/collaboration_Ming_Gong/codes/trilinos/trilinos-TPLs/install3 --prefix=/home/ming/collaboration_Ming_Gong/codes/trilinos/trilinos-TPLs/install3
