@@ -1,7 +1,8 @@
-Note: One needs to go to the trilinos-TPLs folder under 
-folder trilinos to edit or run netcdf-c-4.3.1.1-configure
-to install netcdf before one come back to the trilinos-dev 
-folder to install trilinos. --Ming Gong 
+Note: One needs to go to the trilinos-TPLs folder 
+which should be created under trilinos to edit or 
+run netcdf-c-4.3.1.1-configure to install netcdf
+before one come back to the trilinos-dev folder to
+install trilinos. --Ming Gong 
 
 After installation of the required third party packages, 
 One needs to run the file called cmake-ming_mu-tc-stk-mpi.sh
